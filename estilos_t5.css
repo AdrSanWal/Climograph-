@@ -1,0 +1,99 @@
+:root {
+    --ancho-total:70%;
+    --ancho-flechas:10%;
+    --ancho-annios:13%;
+    --op-hover:0.9; /*opacidad on hover*/
+    --op:0.4; /*opacidad normal*/
+    --bar-color:blue;
+    --line-color:red;
+    --op-hover-leyendas:0.9; /*opacidad leyenda visible*/
+    --op-leyendas:0; /*opacidad leyenda oculta*/
+}
+
+.textos {
+    font-family: sans-serif;
+    font:grey;
+}
+
+#anios {
+    text-align:center;
+    width:var(--ancho-total);
+    height:90%;
+    padding: auto;
+    margin: auto;
+}
+
+#botones = {
+    background-color:ligthgrey;
+    text-align:center;
+}
+
+.controles {
+    height:40px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size:15px; 
+}
+
+.flecha {
+    width:var(--ancho-flechas);
+}
+
+.anio {
+    width:var(--ancho-annios);
+}
+
+.anio:hover {
+    background-color: darkgrey;
+}
+
+.titulo {
+    font-size: 13px;
+    font-weight: 800;
+    fill:grey;
+}
+
+.tituloEje {
+    font-size: 11px;
+    font-weight: 800;
+    opacity:var(--op);
+
+}
+
+.bar {
+    fill:var(--bar-color);
+    opacity:var(--op);
+}
+
+.bar:hover {
+    opacity:var(--op-hover);
+}
+
+.Tooltip {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.barTooltip {
+    background-color:#fff;
+    border:solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding:4px;
+    position:absolute;
+    z-index:auto;
+}
+
+.linea-T {
+    stroke-width:6;
+    fill: none;
+    opacity:var(--op);
+}
+
+.linea-T:hover {
+    opacity:var(--op-hover);
+}
+
+ejeX {
+    font-weight:bold;
+}
