@@ -201,4 +201,4 @@ var annio = $(".anio").mouseover(d=>{
             
         })      
     });
-}); 
+});
