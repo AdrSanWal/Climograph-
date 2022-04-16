@@ -1,2 +1,4 @@
 # Climograph-
-A climograph for practice d3.js
+A climograph to practice d3.js
+
+
